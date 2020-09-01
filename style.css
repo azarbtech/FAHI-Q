@@ -7,4 +7,5 @@ html, main{
     align-items: center;
     position: relative;
     display: inline-block;
+    background-repeat: no-repeat;
 }
