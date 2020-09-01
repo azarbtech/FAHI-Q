@@ -1,0 +1,5 @@
+html, main{
+    z-index: 0;
+    background-image: url(WebUnderConstruction.jpg);
+    background-size: 100%;
+}
