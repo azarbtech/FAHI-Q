@@ -2,4 +2,9 @@ html, main{
     z-index: 0;
     background-image: url(WebUnderConstruction.jpg);
     background-size: 100%;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    display: inline-block;
 }
