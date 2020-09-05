@@ -1,11 +1,55 @@
-html, main{
-    z-index: 0;
-    background-image: url(WebUnderConstruction.jpg);
-    background-size: 100%;
+*{
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+#topPad{
+    background-color: brown;
+    height: 10px;
+    width: 100%;
+}
+#container{
+    background-color: whitesmoke;
+    opacity: 65%;
+    height: 100%;
+    width: 70%;
+    margin: 0px auto;
+    position: absolute;
+    top: 0;
+    left: 15%;
+}
+.banner-image{
+    background-image: url("bg_transparent.jpg");
+    background-size: cover;
     height: 100%;
     width: 100%;
-    align-items: center;
-    position: relative;
-    display: inline-block;
     background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 50%;
+}
+#Header{
+    height: 80px;
+    background-color: gray;
+}
+#Header ul{
+    float: right;
+    margin-top: 32px;
+}
+#Header ul li{
+    display: inline;
+    margin-right: 100px;
+}
+#Header ul li a{
+    color: honeydew;
+    text-decoration-line: none;
+    font-size: 20px;
+}
+p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
