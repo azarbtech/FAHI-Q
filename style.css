@@ -29,15 +29,14 @@ body,html{
     width: 100%;
     background-repeat: no-repeat;
     background-position: center center;
-    opacity: 50%;
 }
 #Header{
-    height: 80px;
+    height: 50px;
     background-color: gray;
 }
 #Header ul{
     float: right;
-    margin-top: 32px;
+    margin-top: 15px;
 }
 #Header ul li{
     display: inline;
@@ -51,5 +50,7 @@ body,html{
 p{
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 20%;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
