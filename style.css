@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+.topPad{
+    background-color: rgb(253, 252, 252);
+    height: 10px;
+    width: 100%;
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 100%;
+    width: 70%;
+    margin: 0px auto;
+    position: absolute;
+    top: 0;
+    left: 15%;
+}
+.banner-image{
+    background-image: url("site_bg.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: unset;
+}
+.Header{
+    height: 50px;
+    background-color: rgb(248, 211, 1);
+}
+.Header ul{
+    float: right;
+    margin-top: 15px;
+}
+.Header ul li{
+    display: inline;
+}
+.Header ul li:hover{
+    background: white;
+        
+    padding: 15px 20px;
+    
+}
+.Header ul li a{
+    color: rgb(63, 61, 48);
+    text-decoration-line: none;
+    font-size: 15px;
+    padding: 15px 20px;
+    
+}
+p{
+    position: unset;
+    top: 50%;
+    left: 20%;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(248, 211, 1);
+    text-shadow: 2px 2px rgb(250, 250, 249);
+    text-align: center;
+}
+.footer{
+    position: absolute;
+    height: 25px;
+    width: 100%;
+    background-color: rgb(102, 101, 101);
+    z-index: 0;
+    bottom: 0;
+}
+.footer a{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    display: inline;
+    font-size: 15px;
+    right: 0;
+    bottom: 0;
+    color: rgb(248, 211, 1);
+}
